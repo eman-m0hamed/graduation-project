@@ -1,0 +1,15 @@
+
+
+.container{
+    margin: auto;
+    overflow: hidden;
+}
+
+footer{
+    bottom:0;
+}
+
+table a{
+    text-decoration: none;
+    color: inherit;
+}

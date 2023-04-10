@@ -1,0 +1,70 @@
+
+
+.container{
+    margin: auto;
+    overflow: hidden;
+
+}
+/* start services section */
+#services{
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+
+}
+#services .container span{
+    color: #7952b3;
+    font-weight: 600;
+    font-size: 30px;
+}
+#services .container h3{
+    width: 500px;
+    /* margin: 20px auto; */
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+/* end services section */
+
+/* start cards section */
+.cards .container{
+    overflow: hidden;
+}
+.cards .container .one-card{
+    
+    text-align: center;
+    padding:10px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.cards .container .one-card i{
+    color:#8271b6;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.cards .container .one-card h1{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.cards .container .one-card .btns{
+    padding: 10px;
+    /* border: 1px solid black; */
+    border: none;
+    box-shadow: 0px 0px 6px 0px #00000075;
+    border-radius: 10px;
+    line-height: 30px;
+    color: white;
+    background-color: #8b68ff;
+    margin-bottom: 40px;
+    display: inline-block;
+    text-decoration: none;
+}
+.cards .container .one-card:hover{
+    border-color:#5a56ec ;
+}
+/* end cards section  */
+

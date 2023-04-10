@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+/* body{
+    overflow-x: hidden;
+} */
+
+.navbar-collapse{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.main{
+    margin: 100px 50px 260px;
+    justify-content: center;
+}
+.navbar h1, footer h1{
+ /* color: rgba(255,255,255,.55); */
+    color: white;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: normal;
+
+}
+.nav{
+    background-color: #7952b3;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+}
+
+#navbarNavDropdown{
+    /* margin-right: 100px; */
+    font-size: 20px;
+}
+/*
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+} */
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#ffffff;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 35px;
+}
+#login{
+    margin-top: 100px;
+}
+#login .contain{
+    box-shadow: 0px 1px 11px -6px black;
+    border: 1px solid #d5d5d5;
+    border-radius: 30px;
+    margin-bottom: 70px;
+}
+
+#login .contain h1{
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login .submit{
+    box-shadow: 0px 1px 11px -6px black;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+#login form a, #registration form a{
+    color: #918e8e;
+    text-decoration: none;
+}
+
+#login form a:hover, #registration form a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.log_out{
+    font-size: 20px;
+    /* margin-left: 30px; */
+}
+
+
+/* start contact section  */
+#contact .container p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#contact .container form{
+    width: 55%;
+    margin: 25px auto 55px auto;
+}
+#contact .container input,#contact .container textarea{
+   border-radius: 25px;
+   border:1px solid #d1d1d1;
+   padding: 15px;
+   display: block;
+   margin: 15px auto;
+   width: 100%;
+}
+#contact .container textarea{
+    margin: 30px auto;
+}
+#contact .container form div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+}
+#contact .container form div input{
+    width: 333px;
+}
+#contact .container form button{
+    border: 1px solid #8b68ff;
+    color: white;
+    padding: 15px ;
+    font-size: 15px;
+    background-color: #8b68ff;
+    border-radius: 50px;
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+}
+
+/* end contact section  */
+
+
+/* start footer */
+footer{
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    color: white;
+    line-height: 32px;
+    width: 100%;
+}
+footer .container{
+    padding:100px 0;
+    border-bottom: 1px solid #6c6c6c6b;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    margin: 10px auto;
+
+}
+footer img{
+    margin-top: -10px;
+}
+
+footer .copyright{
+    text-align: center;
+    margin:30px;
+    color: #cbcbcb;
+}
+footer .copyright a{
+    text-decoration: none;
+    color: #7952b3;
+}
+footer .copyright a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+footer .container .footer-logo a{
+    border:1px solid #ccc;
+    background: none;
+    padding: 6px 13px;
+    display: inline-block;
+    color: white;
+    margin: 5px;
+    border-radius: 50%;
+}
+footer .container .footer-logo a:hover{
+    background-color: #7952b3;
+    border: none;
+}
+/* end footer */
+
+#profileIcon{
+    font-size: 35px;
+    display: inline-block;
+    /* margin-left: 33px; */
+    /* color: white; */
+
+}
+.dropdown-toggle::after {
+    display: none;
+}
+/* #prof_detail:hover{
+
+    top: 90px;
+
+} */
+h6{
+    font-size: 13px;
+}
+.prof_details .prof_icon{
+    font-size: 35px;
+    display: inline-block;
+    color: #7952b3;
+
+}
+.prof_details h3{
+    display: inline-block;
+    font-size: 25px;
+}
+.prof_details input{
+    display: block;
+    margin: 8px 0 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+.prof_btn{
+    font-size: 15px;
+    background-color: #8b68ff;
+    color: white;
+
+
+}
+
+table{
+    margin-top: 20px;
+}
+
+/* ///////////// */
+#medicalRecord p, #prof_details p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    width: 90%;
+    font-weight: 500;
+
+
+}
+
+#medicalRecord span, #prof_details span{
+    font-weight: 700;
+    color: rgb(160, 56, 204);
+    text-transform: capitalize;
+    font-style: italic;
+    margin-right:15px;
+    font-size: 23px;
+
+}
+
+.patientD{
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.patientD h3, #prof_details h2{
+
+    margin-bottom: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+table thead{
+    background-color: rgb(121, 82, 179);
+    color: white;
+}
+

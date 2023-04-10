@@ -1,0 +1,25 @@
+
+#prof_details i{
+    font-size: 100px;
+    color: #16173af1;
+}
+
+#prof_details input{
+border: none;
+}
+
+.prof_btn{
+    margin: 20px;
+    position: absolute;
+    font-size: 25px;
+    width: 100px;
+    right: 172px;
+}
+
+
+#prof_details h2{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+

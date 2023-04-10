@@ -1,0 +1,113 @@
+
+
+.container{
+    margin: auto;
+    overflow: hidden;
+
+}
+/* start services section */
+#services{
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    padding: 150px 0 0;
+}
+#services .container span{
+    color: #7952b3;
+    font-weight: 600;
+    font-size: 30px;
+}
+#services .container h3{
+    width: 500px;
+    margin: 40px auto;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 500;
+}
+
+/* end services section */
+
+/* start cards section */
+.cards .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 115px;
+    overflow: hidden;
+}
+.cards .container .one-card{
+    width: 32%;
+    text-align: center;
+    padding:10px;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.cards .container .one-card i{
+    color:#8271b6;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.cards .container .one-card h1{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px 0;
+}
+.cards .container .one-card .btns{
+    padding: 10px;
+    /* border: 1px solid black; */
+    border: none;
+    box-shadow: 0px 0px 6px 0px #00000075;
+    border-radius: 10px;
+    line-height: 30px;
+    color: white;
+    background-color: #8b68ff;
+    margin-bottom: 40px;
+}
+.cards .container .one-card:hover{
+    border-color:#5a56ec ;
+}
+/* end cards section  */
+
+#search{
+    margin-top:150px;
+    padding: 30px;
+    text-align: center;
+    height: 220px;
+}
+
+#search input{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 45px;
+    border: 2px solid #0e0e0e6e;
+    padding-left: 50px;
+
+}
+
+#search .btn{
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 55px;
+    padding: 12px 25px;
+}
+
+form{
+    position: relative;
+    margin-bottom: 40px;
+
+}
+form i{
+    font-size: 22px;
+    position: absolute;
+    top: 26px;
+    left: 280px;
+}
+
+.alert{
+    width: 75%;
+    margin: 30px auto;
+}

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    overflow-x: hidden;
+}
+
+.art{
+    margin-top: 70px;
+}
+
+#forget .contain{
+    box-shadow: 0px 1px 11px -6px black;
+    border: 1px solid #d5d5d5;
+    border-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+    /* justify-content: ; */ 
+}
+
+#forget .submit{
+    box-shadow: 0px 1px 11px -6px black;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+}
+
+#forget .contain h1{
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+if(date_1.day>0 && date_1.day<15){
+    if(date_1.month>0 && date_1.month<12)
+    date_1.month++;
+    else if(date_1.month==12)
+    
+}
